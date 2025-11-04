@@ -238,7 +238,7 @@ body {
 .links { display: none !important; }
 .links.links--visible { display: flex !important; }
 
-.links b {
+.links a {
   display: flex;
   align-items: center;
   margin: 0 10px;
@@ -248,13 +248,13 @@ body {
   transition: transform 0.3s ease;
 }
 
-.links b:hover {
+.links a:hover {
   color: #67cfff;
   text-decoration: underline;
   transform: translateY(-5px) scale(1.1);
 }
 
-.links b i {
+.links a i {
   margin-right: 5px;
   font-size: 24px;
 }
@@ -832,7 +832,6 @@ a {
   text-decoration: none;
   text-align: center;
   font-family: 'consolas', sans-serif;
-  animation: colorRotate 0.5s linear 0s infinite;
   display: inline-block;
   margin: 0 10px;
 }
