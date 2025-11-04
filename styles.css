@@ -1,5 +1,5 @@
 html {
-  cursor: url('assets/cursor/mao.png'), auto;
+  cursor: url('assets/cursor/catpaw.png'), auto;
 }
 
 body {
@@ -87,10 +87,12 @@ body {
 #terminal-text {
   margin: 0;
   padding: 0;
+  margin-top: 80px;
   font-size: 14px;
   line-height: 1.5;
   overflow: hidden;
   white-space: pre-line;
+  font-family: monospace;
 }
 
 #video-background {
@@ -233,7 +235,10 @@ body {
   width: 100%;
 }
 
-.links a {
+.links { display: none !important; }
+.links.links--visible { display: flex !important; }
+
+.links b {
   display: flex;
   align-items: center;
   margin: 0 10px;
@@ -243,13 +248,13 @@ body {
   transition: transform 0.3s ease;
 }
 
-.links a:hover {
+.links b:hover {
   color: #67cfff;
   text-decoration: underline;
   transform: translateY(-5px) scale(1.1);
 }
 
-.links a i {
+.links b i {
   margin-right: 5px;
   font-size: 24px;
 }
@@ -379,8 +384,8 @@ body {
   height: 11px;
   border-radius: 50%;
   display: inline-block;
-  margin-right: 6px;
-  margin-left: -93px;
+  margin-right: 1px;
+  margin-left: -140px;
   margin-bottom: 3px;
   margin-top: 10px;  
   box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
@@ -1061,3 +1066,22 @@ footer {
     #shimeji-contextMenu::-webkit-scrollbar-thumb:hover {
         background: #555;
       }
+
+#skip-button {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  color: rgb(192, 192, 192);
+  font-family: sans-serif;
+  font-size: 14px;
+  z-index: 9999;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+#terminal.fade-out {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+

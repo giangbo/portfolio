@@ -9,10 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Configuration object for easy customization
     const config = {
         usernames: [
-            "maomao",
-            "miêu miêu",
-            "Māo Māo",
-            "Xiaomao",
+            "GB0-7",
+            "Giang",
         ],
         typeSpeed: 100,
         deleteSpeed: 50,
