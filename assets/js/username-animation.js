@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const config = {
         usernames: [
             "GB0-7",
-            "Giang",
         ],
         typeSpeed: 100,
         deleteSpeed: 50,
