@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     "IP: Loading...",
     "System: Loading...",
     "Bio Loaded",
-    "Press Enter or Click To Continue",
+    "Click To enter...",
   ];
   let currentIndex = 0;
 
