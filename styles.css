@@ -659,7 +659,7 @@ body.video-normal #video-overlay {
   padding: 1px 2px;
   margin-bottom: 17px;
   border: 2px #ea0300 solid;
-  font-size: 15px;
+  font-size: 10px;
   font-weight: normal;
   text-align: right;
   border-radius: 5px;
@@ -680,7 +680,7 @@ body.video-normal #video-overlay {
 
 .kill-item .player {
   font-family: 'Rajdhani', sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: bold;
   margin: 0 2px;
 }
