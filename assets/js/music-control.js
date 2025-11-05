@@ -16,16 +16,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const toggleIcon = document.getElementById('toggleIcon');
 
     const mediaPairs = [
-        { video: "./assets/back/tiktok1.mp4", audio: "./assets/music/tiktok1.mp3", weight: 50},
-        { video: "./assets/back/tiktok2.mp4", audio: "./assets/music/tiktok2.mp3", weight: 50},
-        { video: "./assets/back/tiktok3.mp4", audio: "./assets/music/tiktok3.mp3", weight: 50},
+        { video: "./assets/back/tiktok1.mp4", audio: "./assets/music/tiktok1.mp3", weight: 33},
+        { video: "./assets/back/tiktok2.mp4", audio: "./assets/music/tiktok2.mp3", weight: 33},
+        { video: "./assets/back/tiktok3.mp4", audio: "./assets/music/tiktok3.mp3", weight: 33},
 
     ];
 
     const imageMedia = [
-        { type: 'image', src: './assets/pfp/', weight: 0.1 },
-        { type: 'image', src: './assets/pfp/', weight: 49.9 },
-        { type: 'image', src: './assets/pfp/', weight: 50 },
+        { type: 'image', src: './assets/pfp/giangbeo.png', weight: 100 },
     ];
 
     function getWeightedRandomItem(items) {

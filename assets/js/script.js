@@ -256,3 +256,7 @@ document.addEventListener('DOMContentLoaded', function () {
     document.head.appendChild(script);
   }
 });
+
+document.getElementById("maomao-link").addEventListener("click", function () {
+    window.location.href = "secret.html";
+  });
