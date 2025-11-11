@@ -16,18 +16,18 @@ document.addEventListener('DOMContentLoaded', function () {
     const toggleIcon = document.getElementById('toggleIcon');
 
     const mediaPairs = [
-        { video: "./assets/back/tiktok1.mp4", audio: "./assets/music/tiktok1.mp3", weight: 8.33 },
-        { video: "./assets/back/tiktok2.mp4", audio: "./assets/music/tiktok2.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok3.mp4", audio: "./assets/music/tiktok3.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok4.mp4", audio: "./assets/music/tiktok4.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok5.mp4", audio: "./assets/music/tiktok5.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok6.mp4", audio: "./assets/music/tiktok6.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok7.mp4", audio: "./assets/music/tiktok7.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok8.mp4", audio: "./assets/music/tiktok8.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok9.mp4", audio: "./assets/music/tiktok9.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok10.mp4", audio: "./assets/music/tiktok10.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok11.mp4", audio: "./assets/music/tiktok11.mp3", weight: 8.33},
-        { video: "./assets/back/tiktok12.mp4", audio: "./assets/music/tiktok12.mp3", weight: 8.33},
+        { video: "./assets/back/tiktok1.mp4", audio: "./assets/music/tiktok1.mp3"},
+        { video: "./assets/back/tiktok2.mp4", audio: "./assets/music/tiktok2.mp3"},
+        { video: "./assets/back/tiktok3.mp4", audio: "./assets/music/tiktok3.mp3"},
+        { video: "./assets/back/tiktok4.mp4", audio: "./assets/music/tiktok4.mp3"},
+        { video: "./assets/back/tiktok5.mp4", audio: "./assets/music/tiktok5.mp3"},
+        { video: "./assets/back/tiktok6.mp4", audio: "./assets/music/tiktok6.mp3"},
+        { video: "./assets/back/tiktok7.mp4", audio: "./assets/music/tiktok7.mp3"},
+        { video: "./assets/back/tiktok8.mp4", audio: "./assets/music/tiktok8.mp3"},
+        { video: "./assets/back/tiktok9.mp4", audio: "./assets/music/tiktok9.mp3"},
+        { video: "./assets/back/tiktok10.mp4", audio: "./assets/music/tiktok10.mp3"},
+        { video: "./assets/back/tiktok11.mp4", audio: "./assets/music/tiktok11.mp3"},
+        { video: "./assets/back/tiktok12.mp4", audio: "./assets/music/tiktok12.mp3"},
 
     ];
 
